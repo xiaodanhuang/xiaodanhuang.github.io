@@ -1,0 +1,23 @@
+html,body,#root{
+    width:100%;
+    height:100%;
+}
+
+.App {
+
+    text-align: center;
+    background-color:pink;
+    width:100%;
+    height:100%;
+}
+.iphone{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    bottom: 30px;
+    margin: -330px 0px 0px -180px;
+}
+.footer-bar{
+    position:fixed;
+    bottom:0px;
+}
