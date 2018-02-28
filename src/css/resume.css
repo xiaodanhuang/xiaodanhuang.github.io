@@ -1,0 +1,85 @@
+.avatar{
+    margin:50px 0px 50px 0px;
+    width:200px;
+    height:200px;
+    background-image:url("../images/avatar.jpeg") ;
+    background-size:cover;
+    border-radius:50%;
+    display:inline-block;
+}
+.nextPage{
+    position:absolute;
+    bottom:50px;
+    animation:pop  2s infinite ease-in-out;
+    -webkit-animation:pop 2s infinite ease-in-out; /* Safari and Chrome */
+    cursor: pointer;
+}
+.button-language{
+    background-color: #FFD700;
+    color:#888;
+    position:absolute;
+    top:20px;
+    right:50px;
+
+}
+.home-page{
+    width:100%;
+    height:100%;
+}
+.skill{
+    width:100%;
+    height:100%;
+    background: linear-gradient(270deg,pink,#F5DEB3);
+}
+.job{
+    width:100%;
+    height:100%;
+    background: linear-gradient(to right,#F0FFFF,pink);
+}
+
+.skill img{
+    max-width: 140px;
+    max-height:70px;
+    display:inline-block;
+}
+.skill.row{
+    width:100%;
+    height:50%;
+    margin-top:50px;
+}
+.skill-header{
+    width:100%;
+    height:200px;
+    font-size:40px;
+    color:white;
+    line-height:200px;
+}
+.col{
+    margin-bottom:50px;
+}
+.img-box{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    display:inline-block;
+    border:1px solid white;
+    line-height:150px;
+}
+.job-life{
+    display:inline-block;
+    width:40%;
+    margin-top:200px!important;
+}
+@keyframes pop
+{
+    0%   {bottom:50px;}
+    50% {bottom:20px;}
+    100% {bottom:50px;}
+}
+​
+@-webkit-keyframes  pop
+{
+    0%   {bottom:50px;}
+    50% {bottom:20px;}
+    100% {bottom:50px;}
+}

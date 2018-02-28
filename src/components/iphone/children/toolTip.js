@@ -1,6 +1,6 @@
 import React,{Component} from 'react'
 import { List,Icon } from 'antd';
-import '../css/iphone.css'
+import '../../../css/iphone.css'
 class ToolTip extends Component{
     constructor(props){
         super(props)

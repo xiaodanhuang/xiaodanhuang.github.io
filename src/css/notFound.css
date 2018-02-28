@@ -1,0 +1,43 @@
+.not-found{
+    text-align: center;
+    background-color:#888;
+    width:100%;
+    height:100%;
+}
+.danhuang{
+    width:201.5px;
+    height:125px;
+    background-image: url("../images/page_notfound_1.png");
+    background-size:cover;
+    animation:shake  3s infinite ease-in-out;
+    -webkit-animation:shake 3s infinite ease-in-out; /* Safari and Chrome */
+    display:inline-block;
+    margin-top:20px;
+}
+@keyframes shake
+{
+    0%  {   transform: rotate(30deg);
+            -ms-transform: rotate(30deg); /* IE 9 */
+            -webkit-transform: rotate(30deg); /* Safari and Chrome */
+    }
+    100%  {  transform: rotate(-30deg);
+            -ms-transform: rotate(-30deg); /* IE 9 */
+            -webkit-transform: rotate(-30deg); /* Safari and Chrome */
+    }
+
+
+}
+
+@-webkit-keyframes shake /* Safari and Chrome */
+{
+    0%   {  transform: rotate(30deg);
+            -ms-transform: rotate(30deg); /* IE 9 */
+            -webkit-transform: rotate(30deg); /* Safari and Chrome */
+    }
+    100% {  transform: rotate(-30deg);
+            -ms-transform: rotate(-30deg); /* IE 9 */
+            -webkit-transform: rotate(-30deg); /* Safari and Chrome */
+    }
+
+
+}

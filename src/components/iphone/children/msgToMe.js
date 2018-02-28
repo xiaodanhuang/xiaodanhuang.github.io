@@ -1,5 +1,5 @@
 import React,{Component} from 'react'
-import'../css/msg.css'
+import '../../../css/msg.css'
 
 
 class MsgToMe extends Component{

@@ -17,6 +17,7 @@ header{
     background-color:#FFE4E1;
     overflow:auto;
 }
+.content::-webkit-scrollbar {display:none}
 .msg-left{
     text-align:left;
     padding-left:20px;
