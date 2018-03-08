@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import { Card,Icon,Row, Col} from 'antd';
 import {Link} from 'react-router-dom';
+import { connect } from 'react-redux'
 import '../../css/resume.css'
 class HomePage extends Component{
     constructor(props){
         super(props);
-        this.state={
-        }
     }
     render(){
         return (
@@ -32,4 +31,5 @@ class HomePage extends Component{
         )
     }
 }
-export  default HomePage
+
+export default HomePage

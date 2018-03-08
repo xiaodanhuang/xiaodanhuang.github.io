@@ -35,6 +35,7 @@ class Footer extends Component{
             <div className="footer-bar">
                 <div className="footer-left">
                     <a href="https://github.com/xiaodanhuang/xiaodanhuang.github.io" target="view_window"><span>源码</span></a>
+                    <a href="https://xiaodanhuang.gitbooks.io/danhuangnotes/content/" target="view_window"><span>博客</span></a>
                     <Link to="/blog">简历</Link>
                 </div>
                 <div className="footer-right">

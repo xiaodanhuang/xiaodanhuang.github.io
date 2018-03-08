@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../../css/resume.css'
-import { Timeline, Icon } from 'antd';
+import { Timeline} from 'antd';
 
 class Job extends Component{
     constructor(props){
@@ -11,7 +11,7 @@ class Job extends Component{
             <div className="job">
                 <Timeline className="job-life">
                     {
-                        this.props.life.map(item =>
+                        this.props.info.life.map(item =>
                             <Timeline.Item>{item}</Timeline.Item>
                         )
                     }
@@ -21,4 +21,5 @@ class Job extends Component{
     }
 
 }
-export  default Job
+
+export default Job
